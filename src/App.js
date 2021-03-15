@@ -4,7 +4,7 @@ import { Route, Link, Switch } from "react-router-dom";
 import axios from "axios";
 // import { response } from 'express';
 import Equipment from './components/Equipment'
-
+import ModelInfo from './components/ModelInfo'
 
 
 
@@ -50,6 +50,8 @@ render(){
        <Route exact path="/equipment" render={routerProps => <Equipment {...routerProps} equipment={this.state} 
           />
           }/>
+        <Route path="/Model_info/:id" render={routerProps => <ModelInfo {...routerProps} {...this.state} />}
+        />
        
      </header>
    </div>

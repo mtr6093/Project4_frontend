@@ -14,7 +14,7 @@ render() {
         return(
             <div>
         <p>
-            <Link to={`/result/${item.id}`}>{item.model}</Link>
+            <Link to={`/model_info/${item.id}`}>{item.model}</Link>
         </p>
         </div>
         );
@@ -22,7 +22,7 @@ render() {
     })
     console.log(allEquip)
         
-        // return <Link to={`/details/${equimpent.id}`}><h4 class>{equimpent.model}</h4></Link>
+      
       
     return (
         
@@ -34,11 +34,7 @@ render() {
         {allEquip}
     
         </div>
-        {/* <h3>Create a New Artist</h3>
-        <form onSubmit={(e)=>this.props.addArtist(e)}>
-          <input type="text" name="name" />
-          <input type="submit" value="Add Artist" />
-        </form> */}
+        
         </div>
 
 
