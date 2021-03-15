@@ -47,7 +47,7 @@ render(){
    <div className="App">
      <header className="App-header">
        <p>TEST TEXT</p>
-       <Route exact path="/" render={routerProps => <Equipment {...routerProps} equipment={this.state} 
+       <Route exact path="/equipment" render={routerProps => <Equipment {...routerProps} equipment={this.state} 
           />
           }/>
        
