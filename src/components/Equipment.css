@@ -1,0 +1,39 @@
+.EQLI{
+    /* border: 2px solid red; */
+    max-height: 400px;
+    display:flex;
+    align-content: top ;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-decoration: none;
+    
+}
+
+li{
+    list-style-type: none;
+    display:flex;
+}
+
+/* .equipment{
+    
+    display:flex;
+    text-decoration: none;
+    
+} */
+
+.Type{
+    width: 185px;
+}
+
+.Model{
+    width:90px;
+}
+
+.creation{
+    padding-left:20px;
+    padding-top:30px;
+}
+
+.Title{
+    padding-left: 20px;
+}

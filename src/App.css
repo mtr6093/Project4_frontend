@@ -1,3 +1,42 @@
+.gradient {
+  background-color: black;
+  background-image: linear-gradient( darkgreen, grey);
+}
+
 body{
   background-color: gray;
+  min-height:100vh;
+  /* border: 2px solid blue; */
+  position: relative;
+  
+}
+
+.App-header{
+  /* border: 2px solid red; */
+  display:flex;
+  min-height: 80px;
+  justify-content: center;
+  align-items: center;
+  color:lightgrey; 
+  font-size: x-large;
+  
+}
+
+.Nav{
+  /* border: 2px solid red; */
+  display:flex;
+  min-height: 50px;
+  justify-content: space-around;
+  align-items: center;
+  display:flex;
+  font-size: 20px;
+  
+
+}
+ 
+.fixed-bottom{
+  background-color: black;
+  color:white;
+  padding-left: 35px;
+  
 }

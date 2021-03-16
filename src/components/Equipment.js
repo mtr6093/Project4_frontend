@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { Route, Link, Switch, Redirect } from "react-router-dom";
+import './Equipment.css';
 
 class Equipment extends Component {
     constructor(props) {
@@ -13,7 +14,7 @@ render() {
     const allEquip = this.props.equipment.equipment.map(item => {
         
         return(
-            <div>
+            <div className="eqb">
                
                 <div className="equipment">
                 <ul>
@@ -35,17 +36,17 @@ render() {
         
         <div className='container'>
         <div className="creation">
-            <h3> Enter information below to enter a new piece of equipment
+            <h3> Enter information below to track a new piece of equipment
                 <form onSubmit={(e) => this.props.createEquip(e)}>
-                    <input placeholder='Type(i.e.Tractor)' name="name"/>
-                    <input placeholder='model number' name='model'/>
-                    <input type='submit' value='create equipment'/>
+                    <input className="Type" placeholder='Type(i.e.Tractor, Combine, etc)' name="name"/><br />
+                    <input className="Model" placeholder='model number' name='model'/><br />
+                    <input type='submit' value='Create New Equipment Entry'/>
                 </form> <br />
             </h3>
         </div>
-        
+        <h2 className="Title"> List of avaialable equipment</h2>
         <div className="EQLI">
-            <h2> List of avaialable equipment</h2>
+            
             {allEquip}
         </div>
         
