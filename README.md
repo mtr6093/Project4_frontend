@@ -12,47 +12,38 @@ Link to the frontend application:
 
 This application does not require any software be installed on your device (phone, tablet, or computer); the entire application is hosted on a webserver.
 
+## Future Enhancements
+The items below are in scope for future enhancements along with fixing any known issues.
+
+- Create a way for users to login
+- Make it so a user only sees their entered equipment (filter by userID)
+- Add additional service items to track
+    1. Engine Air Filter
+    2. Cabin Air Filter
+    3. Front Differential oil
+    4. Final Drive oil
+    5. Reverser oil
+- Create a dropdown list for selecting the vehicle type
+- Create a filtered list of equipment based on type
+
+
+
 ## Why This Application?
 This application was built as a final project for a General Assembly SEI class. The entire application, frontend and backend, was developed in one week. I chose to create this application because it fills a need for a family memeber's farming opperation.
 
 
 
-### `npm run eject`
+## Technologies Used in the Development of This Project
+The following technologies/software was used in the development of this application.
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+- Visual Studio Code
+- HTMl 5
+- Javascript ES6
+- CSS
+- RESTful routes
+- Full CRUD
+- Node/Express (for backend)
+- React-Router (for frontend)
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+© 2021 Marc Rivers 
