@@ -17,7 +17,8 @@ class App extends Component {
     }
   }
   async getEquipment() {
-    const response = await axios.get('http://localhost:3000/api/equipment/');
+    // const response = await axios.get('http://localhost:3000/api/equipment/');
+    const response = await axios.get('https://marc-finalproject-backend-app.herokuapp.com/api/equipment/')
     this.setState({ equipment: response.data.allEquipment });
   }
 
@@ -108,7 +109,7 @@ class App extends Component {
               <h3 className="Ftext">© 2021 Marc Rivers. All Rights reserved</h3>
             </footer>
           </div>
-          
+
         </div>
       </body>
 
