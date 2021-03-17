@@ -30,7 +30,8 @@ class App extends Component {
     event.preventDefault()
     const name = event.target.name.value
     const model = event.target.model.value
-    await axios.post('http://localhost:3000/api/equipment', { name, model })
+    // await axios.post('http://localhost:3000/api/equipment', { name, model })
+    await axios.post('https://marc-finalproject-backend-app.herokuapp.com/api/equipment', { name, model })
     await this.getEquipment()
   }
 
@@ -38,7 +39,10 @@ class App extends Component {
     event.preventDefault()
     const hoursChanged = event.target.oil.value
     const id = event.target.id.value
-    await axios.put(`http://localhost:3000/api/equipment/${id}`, {
+    // await axios.put(`http://localhost:3000/api/equipment/${id}`, {
+    //   hoursOilChanged: hoursChanged
+    // })
+    await axios.put(`https://marc-finalproject-backend-app.herokuapp.com/api/equipment/${id}`, {
       hoursOilChanged: hoursChanged
     })
     await this.getEquipment()
@@ -48,7 +52,10 @@ class App extends Component {
     event.preventDefault()
     const hoursChanged = event.target.fuel.value
     const id = event.target.id.value
-    await axios.put(`http://localhost:3000/api/equipment/${id}`, {
+    // await axios.put(`http://localhost:3000/api/equipment/${id}`, {
+    //   hoursFuelFilterChanged: hoursChanged
+    // })
+    await axios.put(`https://marc-finalproject-backend-app.herokuapp.com/api/equipment/${id}`, {
       hoursFuelFilterChanged: hoursChanged
     })
     await this.getEquipment()
@@ -58,7 +65,10 @@ class App extends Component {
     event.preventDefault()
     const hoursChanged = event.target.hydro.value
     const id = event.target.id.value
-    await axios.put(`http://localhost:3000/api/equipment/${id}`, {
+    // await axios.put(`http://localhost:3000/api/equipment/${id}`, {
+    //   hoursHydraulicOilChanged: hoursChanged
+    // })
+    await axios.put(`https://marc-finalproject-backend-app.herokuapp.com/api/equipment/${id}`, {
       hoursHydraulicOilChanged: hoursChanged
     })
     await this.getEquipment()
@@ -67,7 +77,8 @@ class App extends Component {
   deleteEquip = async (event) => {
     event.preventDefault()
     const id = event.target.id.value
-    await axios.delete(`http://localhost:3000/api/equipment/${id}`)
+    // await axios.delete(`http://localhost:3000/api/equipment/${id}`)
+    await axios.delete(`https://marc-finalproject-backend-app.herokuapp.com/api/equipment/${id}`)
     await this.getEquipment()
   }
 
