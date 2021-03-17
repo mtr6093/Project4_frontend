@@ -4,7 +4,7 @@ This project is to assit in tracking maintenance records for farm equipment. Cur
 
 ## How This App Works
 
-Navigate to the link listed in this section. The application will load a home page where a user can navigate to an equipment list. Once on the list page the user can add a piece of equipment to track or select a currently listed piece of equipment. When a currently entered piece of equipment is selected the page will change to a details page showing the engine hours at last service will be shown for engine oil/filter, hydraulic filter, and fuel filter. On the details each of the previously listed items can have the hours changed as well as remove a piece of equipment from the list.
+Navigate to the link listed in the links section below. The application will load a home page where a user can navigate to an equipment list. Once on the list page the user can add a piece of equipment to track or select a currently listed piece of equipment. When a currently entered piece of equipment is selected the page will change to a details page showing the engine hours at last service will be shown for engine oil/filter, hydraulic filter, and fuel filter. On the details each of the previously listed items can have the hours changed as well as remove a piece of equipment from the list.
 
 ### Links and Software Installations 
 
@@ -16,10 +16,11 @@ This application does not require any software be installed on your device (phon
 ## Known Issues
 - The equipment details page does not respond well to a webpage refresh; and occasionally causes the application to crash. 
     * To recover navigate with the back button to the equipment list page, refresh the page, then re-select the piece of equipment you want to view.
+- The entry fields for adding equipment and updating hours do not clear after the submit button is pressed. This is an entirely cosmetic issue and does not affect data entry.
 
 
 ## Future Enhancements
-The items below are in scope for future enhancements along with fixing any known issues.
+The items below are in scope for future enhancements along with fixing any known issues. Other requests for enhancements will be evaluated and added to the list below if approved.
 
 - Create a way for users to login
 - Make it so a user only sees their entered equipment (filter by userID)
