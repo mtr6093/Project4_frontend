@@ -1,15 +1,21 @@
 .gradient {
   background-color: black;
-  background-image: linear-gradient( darkgreen, grey);
+  background-image: linear-gradient( darkgreen, darkgrey);
+}
+a{
+  color:black
+}
+body{
+  background-color: darkgray;
+  min-height:100vh;
+  border: 4px solid black;
+  position: relative;
 }
 
-body{
-  background-color: gray;
-  min-height:100vh;
-  /* border: 2px solid blue; */
-  position: relative;
-  
-}
+/* .App{
+  height: 1000%;
+  border:2px solid red
+} */
 
 .App-header{
   /* border: 2px solid red; */
@@ -19,7 +25,6 @@ body{
   align-items: center;
   color:lightgrey; 
   font-size: x-large;
-  
 }
 
 .Nav{
@@ -30,13 +35,25 @@ body{
   align-items: center;
   display:flex;
   font-size: 20px;
-  
-
+  color:lightgrey
 }
  
-.fixed-bottom{
+.Footer{
+  /* border:2px solid red; */
   background-color: black;
-  color:white;
-  padding-left: 35px;
-  
+  color:lightgrey;
+  align-content: center;
+  text-align: center;
+  position:absolute;
+  left:0;
+  bottom:0;
+  right:0;
+}
+
+.foot{
+  padding-bottom:90px;
+  color: lightgrey;
+}
+.Ftext{
+  color:lightgrey;
 }

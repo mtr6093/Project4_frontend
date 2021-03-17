@@ -91,8 +91,8 @@ render(){
        <h1>Equipment Maintenance Tracking App</h1>
       </header>
       <nav className="Nav">
-      <Link to='/equipment'>Equipment List</Link><br />
-      <Link to='/'>Home</Link>
+      <Link className="Nav" to='/equipment'>Equipment List</Link><br />
+      <Link className="Nav" to='/'>Home</Link>
       </nav>
     
       <Switch>
@@ -106,12 +106,12 @@ render(){
         />
       </Switch>
    </div>
-   <div fixed='bottom' className="fixed-bottom">
-   <Navbar bg="dark" className="Footer">
-        
-       <h3>placeholder for contactme<br />copyright</h3>
+   <div className="foot">
+   <footer className="Footer">
+      <a className="Ftext" href="mailto:m.t.rivers@hotmail.com">Contact Me</a>
+       <h3 className="Ftext">© 2021 Marc Rivers. All Rights reserved</h3>
        
-     </Navbar>
+     </footer>
      </div>
      </div>
    </body>

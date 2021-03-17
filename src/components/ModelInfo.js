@@ -50,13 +50,14 @@ render() {
                 <input type="hidden" name="id" value={findModel.id} />
                 <input type="submit" value="Update"/>
             </form>
+            <br /><br /><br />
 
         </div>
         <div className="Delete">
             <form onSubmit={(e)=> this.props.deleteEquip(e) && this.props.history.push("/equipment")}  >
                 <input type="hidden" name="id" value={findModel.id} />
                 
-                <input type="submit" value="Delete Equipment"/>
+                <input type="submit" value="Delete Equipment"/><h3> ⚠️ This will PERMANENTLY remove this piece of equipment. There is no restoring a piece of equipment after deletion.</h3>
             </form>
         </div>
         </div>
