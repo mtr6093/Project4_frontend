@@ -6,20 +6,12 @@
     justify-content: center;
     flex-wrap: wrap;
     text-decoration: none;
-    
 }
 
 li{
     list-style-type: none;
     display:flex;
 }
-
-/* .equipment{
-    
-    display:flex;
-    text-decoration: none;
-    
-} */
 
 .Type{
     width: 185px;
