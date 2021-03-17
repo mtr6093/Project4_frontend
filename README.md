@@ -1,6 +1,6 @@
-# Getting Started with Create React App
+# The Equipment Maintenance Tracking App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project is to assit in tracking maintenance records for farm equipment. Currently this app will track the engine hours when engine oil/filter, hydraulic filter, and fuel filter are changed.
 
 ## Available Scripts
 
