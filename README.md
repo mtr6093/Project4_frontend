@@ -12,6 +12,12 @@ Link to the frontend application:
 
 This application does not require any software be installed on your device (phone, tablet, or computer); the entire application is hosted on a webserver.
 
+
+## Known Issues
+- The equipment details page does not respond well to a webpage refresh; and occasionally causes the application to crash. 
+    * To recover navigate with the back button to the equipment list page, refresh the page, then re-select the piece of equipment you want to view.
+
+
 ## Future Enhancements
 The items below are in scope for future enhancements along with fixing any known issues.
 
