@@ -1,5 +1,5 @@
 # Ideas for final project.
-This is the list of ideas for my final project. A scaled down version of the Equipment tracker was chosen as it was easier to break into smaller pieces and still have a functioning app.
+This is the list of ideas for my final project. A scaled down version of the Equipment tracker was chosen as it was easier to break into smaller pieces and still have a functioning app. See the UserStoryStatemnts.md file for a breakdown of the project.
 
 
 

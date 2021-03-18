@@ -8,9 +8,9 @@ Navigate to the link listed in the links section below. The application will loa
 
 ### Links and Software Installations 
 
-Link to the frontend application:
+Link to the frontend application: https://marc-final-project-frontend.herokuapp.com/
 
-This application does not require any software be installed on your device (phone, tablet, or computer); the entire application is hosted on a webserver.
+This application does not require any software be installed on your device (phone, tablet, or computer); the entire application is hosted on a Heroku webserver.
 
 
 ## Known Issues
