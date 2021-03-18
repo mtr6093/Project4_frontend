@@ -36,6 +36,8 @@ The items below are in scope for future enhancements along with fixing any known
 - Create a filtered list of equipment based on type
 
 
+## Development Procedures
+If you are interested in the planning stages of this project, including seeing the user stories this project was created for, please see the Planning folder in this repo.
 
 ## Why This Application?
 This application was built as a final project for a General Assembly SEI class. The entire application, frontend and backend, was developed in one week. I chose to create this application because it fills a need for a family memeber's farming opperation.
@@ -43,7 +45,7 @@ This application was built as a final project for a General Assembly SEI class. 
 
 
 ## Technologies Used in the Development of This Project
-The following technologies/software was used in the development of this application.
+The following technologies/software was used in the development of this application. 
 
 - Visual Studio Code
 - HTMl 5
