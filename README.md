@@ -6,6 +6,8 @@ This project is to assit in tracking maintenance records for farm equipment. Cur
 
 Navigate to the link listed in the links section below. The application will load a home page where a user can navigate to an equipment list. Once on the list page the user can add a piece of equipment to track or select a currently listed piece of equipment. When a currently entered piece of equipment is selected the page will change to a details page showing the engine hours at last service will be shown for engine oil/filter, hydraulic filter, and fuel filter. On the details each of the previously listed items can have the hours changed as well as remove a piece of equipment from the list.
 
+![image](https://user-images.githubusercontent.com/74468626/111559126-f5c57980-875d-11eb-9d44-ba20ed5140bc.png)
+
 ### Links and Software Installations 
 
 Link to the frontend application: https://marc-final-project-frontend.herokuapp.com/
